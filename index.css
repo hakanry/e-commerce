@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+@layer components {
+  .container {
+    @apply flex flex-col px-[13px] my-14;
+  }
+  h1 {
+    @apply text-[56px] font-extrabold leading-20 tracking-[0.2px];
+  }
+  h2 {
+    @apply text-[40px] font-bold leading-[57px] tracking-[0.2px];
+  }
+  h3 {
+    @apply text-2xl font-bold leading-8 tracking-[0.1px];
+  }
+  h4 {
+    @apply text-[20px] font-medium leading-[30px] tracking-[0.2px];
+  }
+  h5 {
+    @apply text-[16px] font-bold leading-6 tracking-[0.1px];
+  }
+  h6 {
+    @apply text-sm font-semibold leading-6 tracking-[0.2px];
+  }
+  .btn-text {
+    @apply text-sm font-bold leading-7 tracking-[0.2px];
+  }
+  .mobile-menu {
+    @apply text-3xl font-normal leading-[45px] tracking-[0.2px];
+  }
+  p {
+    @apply text-sm font-medium leading-5 tracking-[0.2px];
+  }
+  .list {
+    @apply text-xl font-normal leading-7.5 tracking-[0.2px];
+  }
+  .link {
+    @apply text-sm font-semibold leading-6 tracking-[0.2px];
+  }
+}
