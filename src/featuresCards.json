@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "/FeaturesCardIcons/book-reader.svg",
+    "title": "Easy Wins",
+    "desc": "Get your best looking smile now!"
+  },
+  {
+    "icon": "/FeaturesCardIcons/open-book.svg",
+    "title": "Concrete",
+    "desc": "Defalcate is most focused in helping you discover your most beautiful smile"
+  },
+  {
+    "icon": "/FeaturesCardIcons/arrow-growth.svg",
+    "title": "Hack Growth",
+    "desc": "Overcame any hurdle or any other problem."
+  }
+]
