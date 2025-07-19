@@ -1,0 +1,37 @@
+[
+  {
+    "img": "/ProductImgs/product1.png",
+    "title": "Graphic Design",
+    "desc": "English Department",
+    "price": "$16.48",
+    "discountPrice": "$6.48"
+  },
+  {
+    "img": "/ProductImgs/product2.png",
+    "title": "Graphic Design",
+    "desc": "English Department",
+    "price": "$16.48",
+    "discountPrice": "$6.48"
+  },
+  {
+    "img": "/ProductImgs/product3.png",
+    "title": "Graphic Design",
+    "desc": "English Department",
+    "price": "$16.48",
+    "discountPrice": "$6.48"
+  },
+  {
+    "img": "/ProductImgs/product4.png",
+    "title": "Graphic Design",
+    "desc": "English Department",
+    "price": "$16.48",
+    "discountPrice": "$6.48"
+  },
+  {
+    "img": "/ProductImgs/product5.png",
+    "title": "Graphic Design",
+    "desc": "English Department",
+    "price": "$16.48",
+    "discountPrice": "$6.48"
+  }
+]
