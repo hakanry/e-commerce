@@ -1,6 +1,5 @@
-import React from "react";
 import Header from "../layouts/HomePage/Header";
-import PageContent from "../layouts/HomePage/PageContent";
+import Content from "../layouts/HomePage/Content";
 import Footer from "../layouts/HomePage/Footer";
 import Clients from "../layouts/HomePage/Clients";
 import ShopCards from "../layouts/HomePage/ShopCards";
@@ -13,7 +12,7 @@ function HomePage() {
       <Clients />
       <ShopCards />
       <ProductCards />
-      <PageContent />
+      <Content />
       <Footer />
     </div>
   );
