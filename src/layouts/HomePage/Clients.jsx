@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 function Clients() {
   return (
-    <div className="flex flex-col text-8xl text-neutral-500 my-28">
+    <div className="flex flex-col gap-15 text-8xl  text-neutral-500 my-28  justify-center md:flex-row md:text-6xl">
       <FontAwesomeIcon icon={faHooli} />
       <FontAwesomeIcon icon={faLyft} />
       <FontAwesomeIcon icon={faPiedPiperHat} />

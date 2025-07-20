@@ -13,7 +13,7 @@ function Features() {
             the conflict between{" "}
           </p>
         </section>
-        <section className="flex flex-col items-center text-center px-12.5 gap-7.5">
+        <section className="flex flex-col items-center text-center px-12.5 gap-7.5 md:flex-row md:justify-between">
           {features.map((feature, index) => (
             <FeatureCard key={index} feature={feature} />
           ))}

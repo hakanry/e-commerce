@@ -5,6 +5,7 @@ import Clients from "../layouts/HomePage/Clients";
 import ShopCards from "../layouts/HomePage/ShopCards";
 import ProductCards from "../layouts/HomePage/ProductCards";
 import Features from "../layouts/HomePage/Features";
+import BlogCards from "../layouts/HomePage/BlogCards";
 
 function HomePage() {
   return (
@@ -15,6 +16,7 @@ function HomePage() {
       <ProductCards />
       <Content />
       <Features />
+      <BlogCards />
       <Footer />
     </div>
   );

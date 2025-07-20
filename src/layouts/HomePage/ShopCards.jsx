@@ -9,7 +9,7 @@ const shopcardimgs = [shopcard1, shopcard2, shopcard3];
 
 function ShopCards() {
   return (
-    <div className="flex flex-col gap-4 mb-6">
+    <div className="flex flex-col gap-4 mb-6 md:flex-row">
       {shopcardimgs.map((img, index) => (
         <ShopCard key={index} imgSrc={img} />
       ))}

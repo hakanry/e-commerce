@@ -15,7 +15,7 @@ function ProductCards() {
           <br /> conflict between
         </p>
       </header>
-      <section>
+      <section className="md:flex md:flex-wrap md:justify-center">
         {productList.map((product, index) => (
           <ProductCard key={index} product={product} />
         ))}
