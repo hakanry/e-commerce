@@ -9,7 +9,7 @@ import BlogCards from "../layouts/HomePage/BlogCards";
 
 function HomePage() {
   return (
-    <div>
+    <div className="w-screen">
       <Header />
       <Clients />
       <ShopCards />

@@ -87,13 +87,13 @@ function Footer() {
         </div>
         <div className="flex flex-col gap-2.5 pt-2.5">
           <h5 className="text-slate-800">Get In Touch</h5>
-          <div className="flex">
+          <div className="flex flex-row flex-nowrap w-full gap-2">
             <input
               type="email"
               placeholder="Your Email"
-              className="text-neutral-500 bg-white border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-500"
+              className="flex-1 min-w-0 text-neutral-500 bg-white border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-500"
             />
-            <button className="btn-text text-sm text-white bg-sky-500 py-4 px-5.5 rounded-tr-sm rounded-br-sm">
+            <button className="btn-text text-sm text-white bg-sky-500 py-4 px-5.5 rounded-tr-sm rounded-br-sm flex-shrink-0">
               Subscribe
             </button>
           </div>

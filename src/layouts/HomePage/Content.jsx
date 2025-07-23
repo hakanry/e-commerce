@@ -16,9 +16,15 @@ function Content() {
             of Classical physics: Newtonian mechanics{" "}
           </p>
         </section>
-        <section className="flex gap-3 px-5 pb-7.5 ">
-          <img src={content1} />
-          <img src={content2} />
+        <section className="flex flex-wrap gap-3 px-5 pb-7.5 justify-center">
+          <img
+            src={content1}
+            className="w-32 sm:w-40 md:w-48 lg:w-56 object-cover rounded"
+          />
+          <img
+            src={content2}
+            className="w-32 sm:w-40 md:w-48 lg:w-56 object-cover rounded"
+          />
         </section>
       </main>
     </div>

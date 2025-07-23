@@ -1,5 +1,5 @@
 import ProductCard from "../../components/ProductCard";
-import productList from "../../productsData.json";
+import productList from "../../data/productsData.json";
 
 function ProductCards() {
   return (

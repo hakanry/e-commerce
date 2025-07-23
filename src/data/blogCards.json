@@ -1,20 +1,36 @@
 [
   {
     "img": "BlogCardImgs/blogcard1.png",
-    "imgTag": true,
+    "imgTag": "NEW",
     "tags": ["Google", "Trending", "New"],
     "title": "Loudest à la Madison #1 \n (L'integral)",
     "desc": "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
     "date": "22 April 2021",
-    "comments": "10 comments"
+    "comments": "10 comments",
+    "rating": 4.9,
+    "department": "English Department",
+    "sales": 10,
+    "oldPrice": 12.99,
+    "price": 8.99,
+    "duration": "18h...",
+    "lessons": 48,
+    "colors": ["#23A6F0", "#23856D", "#E77C40", "#252B42"]
   },
   {
     "img": "BlogCardImgs/blogcard2.png",
-    "imgTag": true,
+    "imgTag": "NEW",
     "tags": ["Google", "Trending", "New"],
     "title": "Loudest à la Madison #1 \n (L'integral)",
     "desc": "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
     "date": "22 April 2021",
-    "comments": "10 comments"
+    "comments": "10 comments",
+    "rating": 4.9,
+    "department": "English Department",
+    "sales": 10,
+    "oldPrice": 12.99,
+    "price": 8.99,
+    "duration": "18h...",
+    "lessons": 48,
+    "colors": ["#23A6F0", "#23856D", "#E77C40", "#252B42"]
   }
 ]

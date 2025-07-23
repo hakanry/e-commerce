@@ -1,4 +1,4 @@
-import features from "../../featuresCards.json";
+import features from "../../data/featuresCards.json";
 import FeatureCard from "../../components/FeatureCard";
 function Features() {
   return (
@@ -13,7 +13,7 @@ function Features() {
             the conflict between{" "}
           </p>
         </section>
-        <section className="flex flex-col items-center text-center px-12.5 gap-7.5 md:flex-row md:justify-between">
+        <section className="flex flex-col items-center text-center px-12.5 gap-7.5 md:flex-row md:justify-center">
           {features.map((feature, index) => (
             <FeatureCard key={index} feature={feature} />
           ))}
